@@ -25,7 +25,7 @@ const reviewSchema = new mongoose.Schema(
       type: mongoose.Schema.Types.ObjectId,
       ref: "Product",
       required: [true, "Review must belong to a Product"],
-    },
+    },               
   },
   {timestamps: true}
 );
